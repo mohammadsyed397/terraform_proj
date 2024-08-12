@@ -1,2 +1,3 @@
 # terraform_proj
 in the first terrafrom file  i had written simple terraform program to create ec2 instance in the AWS. with two files main.tf and terraform.tfvars files.
+This Terraform project configures an AWS environment with a Virtual Private Cloud (VPC) that includes two subnets across different availability zones, an internet gateway, and a security group. It deploys two EC2 instances, each in a different subnet, and sets up an Application Load Balancer (ALB) to distribute incoming HTTP traffic across the instances. The configuration includes routing, security, and automatic instance provisioning using user data scripts, making it a complete setup for a basic web application hosted on AWS.
